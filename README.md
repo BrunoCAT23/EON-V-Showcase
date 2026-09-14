@@ -45,3 +45,91 @@ Run from the repository root:
 
 ```bash
 python -m examples.simulation_demo
+```
+
+## Quick Start
+
+Clone the repository and install the development dependencies:
+
+```bash
+python -m pip install -r requirements-dev.txt
+```
+
+Run the simulation demo:
+
+```bash
+python -m examples.simulation_demo
+```
+
+Expected output:
+
+```text
+Simulation demo completed successfully.
+```
+
+## Running Tests
+
+Run the complete automated test suite from the repository root:
+
+```bash
+python -m pytest -v
+```
+
+The tests validate:
+
+- hardware backend interface compatibility
+- simulated motor commands
+- stop behavior
+- servo state
+- display state
+- speech output
+- backend factory behavior
+
+## Repository Structure
+
+```text
+EON-V-Showcase/
+├── hardware/
+│   ├── backend_factory.py
+│   └── simulation_hardware.py
+├── hardware_interfaces/
+│   └── hardware_backend.py
+├── examples/
+│   └── simulation_demo.py
+├── tests/
+│   ├── test_backend_factory.py
+│   └── test_simulation_hardware.py
+├── docs/
+│   └── architecture.md
+├── requirements-dev.txt
+└── README.md
+```
+
+## Current Showcase Features
+
+- Runtime-checkable hardware backend protocol
+- Software-based robot hardware simulation
+- Motor speed and stop simulation
+- Servo position simulation
+- Display frame simulation
+- Speech output simulation
+- Hardware backend factory
+- Automated architecture and behavior tests
+- Runnable simulation example
+- Architecture documentation
+
+## Roadmap
+
+Planned public showcase extensions include:
+
+- Raspberry Pi hardware backend
+- Arduino communication layer
+- Sensor abstraction
+- asynchronous hardware events
+- additional robotics examples
+
+## Project Scope
+
+This repository contains selected engineering components created to demonstrate the architecture and development approach behind EON-V.
+
+The complete EON-V robot runtime, AI behavior system, memory architecture, personality system, and other proprietary components are not included in this public showcase.

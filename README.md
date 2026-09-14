@@ -22,25 +22,20 @@ EON-V explores the integration of:
 
 ## Architecture
 
-The project separates high-level robot logic from physical hardware through a hardware abstraction layer.
+EON-V Showcase uses a hardware abstraction layer to separate high-level robot software from physical hardware implementations.
 
-```text
-        EON-V Runtime
-              |
-       Application Layer
-              |
-        AI / Robot Logic
-              |
-     Hardware Abstraction
-          /       \
-         /         \
- Simulation     Real Hardware
-                    |
-              Raspberry Pi
-                    |
-                 Arduino
-                    |
-          Motors / Servos / I/O
+The architecture currently includes:
+
+- a common `HardwareBackend` protocol
+- a software-based `SimulationHardware` backend
+- a backend factory for selecting hardware implementations
+- automated tests for hardware behavior and interface compatibility
+
+This design allows robotics software to be developed and tested without requiring physical robot hardware.
+
+For a detailed architecture overview, see:
+
+[Architecture Documentation](docs/architecture.md)
 
 ## Simulation Demo
 

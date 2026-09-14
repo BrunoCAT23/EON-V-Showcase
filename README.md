@@ -1,4 +1,5 @@
 # EON-V Showcase
+[![Tests](https://github.com/BrunoCAT23/EON-V-Showcase/actions/workflows/tests.yml/badge.svg)](https://github.com/BrunoCAT23/EON-V-Showcase/actions/workflows/tests.yml)
 
 EON-V is a personal AI robotics project focused on building a modular robot companion platform.
 

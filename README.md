@@ -41,3 +41,12 @@ The project separates high-level robot logic from physical hardware through a ha
                  Arduino
                     |
           Motors / Servos / I/O
+
+## Simulation Demo
+
+The showcase includes a small runnable simulation demonstrating the hardware abstraction architecture without requiring physical robot hardware.
+
+Run from the repository root:
+
+```bash
+python -m examples.simulation_demo

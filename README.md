@@ -67,12 +67,27 @@ For a detailed architecture overview, see:
 
 ## Simulation Demo
 
-The showcase includes a small runnable simulation demonstrating the hardware abstraction architecture without requiring physical robot hardware.
+The showcase includes a runnable simulation demonstrating the hardware abstraction architecture without requiring physical robot hardware.
+
+The demo creates a simulated hardware backend and exercises robot hardware operations entirely in software.
+
+It demonstrates:
+
+- motor control
+- servo positioning
+- display output
+- speech output
+- backend creation through the hardware factory
 
 Run from the repository root:
 
 ```bash
 python -m examples.simulation_demo
+
+Expected output:
+
+```text
+Simulation demo completed successfully.
 ```
 
 ## Quick Start

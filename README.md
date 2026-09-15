@@ -21,6 +21,17 @@ EON-V explores the integration of:
 - Modular robot behaviors
 - Automated testing
 
+## Key Features
+
+- Hardware abstraction through a shared `HardwareBackend` protocol
+- Software-based `SimulationHardware` backend for development without a physical robot
+- Backend factory for selecting hardware implementations
+- Simulated motor, servo, display, and speech operations
+- Automated tests with `pytest`
+- Continuous integration with GitHub Actions
+- Runnable simulation demo
+- Modular structure designed for future Raspberry Pi and Arduino integration
+
 ## Architecture
 
 EON-V Showcase uses a hardware abstraction layer to separate high-level robot software from physical hardware implementations.

@@ -83,12 +83,11 @@ Run from the repository root:
 
 ```bash
 python -m examples.simulation_demo
-
-Expected output:
-
-```text
-Simulation demo completed successfully.
 ```
+
+Successful run:
+
+    Simulation demo completed successfully.
 
 ## Quick Start
 

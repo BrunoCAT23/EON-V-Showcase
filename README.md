@@ -32,6 +32,18 @@ EON-V explores the integration of:
 - Runnable simulation demo
 - Modular structure designed for future Raspberry Pi and Arduino integration
 
+## Tech Stack
+
+| Area | Technology |
+| --- | --- |
+| Language | Python 3.10+ |
+| Architecture | Protocol-based hardware abstraction, backend factory |
+| Simulation | Custom software hardware backend |
+| Testing | pytest |
+| CI | GitHub Actions |
+| Version Control | Git, GitHub |
+| Target Platforms | Raspberry Pi, Arduino |
+
 ## Architecture
 
 EON-V Showcase uses a hardware abstraction layer to separate high-level robot software from physical hardware implementations.

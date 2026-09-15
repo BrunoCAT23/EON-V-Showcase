@@ -146,6 +146,24 @@ EON-V-Showcase/
 ├── requirements-dev.txt
 └── README.md
 ```
+## Project Status
+
+EON-V Showcase is an actively developed public engineering portfolio project.
+
+The repository demonstrates selected architectural and robotics software concepts from the broader EON-V project while keeping the complete AI and behavior system private.
+
+### What This Project Demonstrates
+
+- Python software architecture for robotics
+- Hardware abstraction and interface design
+- Simulation-first development
+- Backend factory patterns
+- Automated testing with pytest
+- Continuous integration with GitHub Actions
+- Git-based development workflow
+- Preparation for Raspberry Pi and Arduino hardware integration
+
+The showcase will continue to evolve with additional public robotics and embedded systems components.
 
 ## Current Showcase Features
 

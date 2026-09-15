@@ -36,6 +36,10 @@ This design allows robotics software to be developed and tested without requirin
 
 For a detailed architecture overview, see:
 
+<p align="center">
+  <img src="docs/images/architecture.svg" alt="EON-V Showcase Architecture" width="850">
+</p>
+
 [Architecture Documentation](docs/architecture.md)
 
 ## Simulation Demo

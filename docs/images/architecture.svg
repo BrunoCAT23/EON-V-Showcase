@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10"
+            refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="500" y="55"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="30"
+        font-weight="bold"
+        fill="#0f172a">
+    EON-V Showcase Architecture
+  </text>
+
+  <!-- Application -->
+  <rect x="300" y="100" width="400" height="80" rx="14"
+        fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+
+  <text x="500" y="135"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#0f172a">
+    Robot Application
+  </text>
+
+  <text x="500" y="160"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#475569">
+    High-Level Control
+  </text>
+
+  <!-- Arrow -->
+  <line x1="500" y1="180" x2="500" y2="225"
+        stroke="#64748b" stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+  <!-- Factory -->
+  <rect x="300" y="230" width="400" height="85" rx="14"
+        fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+
+  <text x="500" y="265"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#0f172a">
+    Backend Factory
+  </text>
+
+  <text x="500" y="290"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        fill="#475569">
+    create_hardware_backend()
+  </text>
+
+  <!-- Arrow -->
+  <line x1="500" y1="315" x2="500" y2="360"
+        stroke="#64748b" stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+  <!-- Protocol -->
+  <rect x="300" y="365" width="400" height="80" rx="14"
+        fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+
+  <text x="500" y="400"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#0f172a">
+    HardwareBackend Protocol
+  </text>
+
+  <text x="500" y="425"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#475569">
+    Common Hardware Contract
+  </text>
+
+  <!-- Branch lines -->
+  <line x1="500" y1="445" x2="500" y2="480"
+        stroke="#64748b" stroke-width="2"/>
+
+  <line x1="500" y1="480" x2="270" y2="480"
+        stroke="#64748b" stroke-width="2"/>
+
+  <line x1="500" y1="480" x2="730" y2="480"
+        stroke="#64748b" stroke-width="2"/>
+
+  <line x1="270" y1="480" x2="270" y2="515"
+        stroke="#64748b" stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+  <line x1="730" y1="480" x2="730" y2="515"
+        stroke="#64748b" stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+  <!-- Simulation -->
+  <rect x="100" y="520" width="340" height="100" rx="14"
+        fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+
+  <text x="270" y="560"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#0f172a">
+    SimulationHardware
+  </text>
+
+  <text x="270" y="588"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#475569">
+    Current Public Backend
+  </text>
+
+  <!-- Real hardware -->
+  <rect x="560" y="520" width="340" height="100" rx="14"
+        fill="#fef3c7" stroke="#d97706" stroke-width="2"
+        stroke-dasharray="7 5"/>
+
+  <text x="730" y="560"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        font-weight="bold"
+        fill="#0f172a">
+    RealHardwareBackend
+  </text>
+
+  <text x="730" y="588"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#475569">
+    Future Hardware Integration
+  </text>
+
+  <!-- Hardware -->
+  <text x="730" y="665"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        fill="#475569">
+    Raspberry Pi • Arduino • Motors • Servos • I/O
+  </text>
+
+  <line x1="730" y1="620" x2="730" y2="640"
+        stroke="#64748b" stroke-width="2"
+        marker-end="url(#arrow)"/>
+</svg>
